@@ -34,7 +34,7 @@
             
         }
         
-    
+       
 
             
         #inicio .contenido header {
@@ -147,6 +147,133 @@
         }
         
         #inicio .contenido .presentacion a:hover {
+            background-color:#ffc107;
+            transform: scale(1.2, 1.2);
+            
+        }
+        
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
+
+     /*inicio1*/
+     #inicio1 {
+        
+    
+       
+        
+    }
+        #inicio1 .contenido header {
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+        }
+        
+        #inicio1 .contenido header .contenido-header {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 2px;
+        }
+        
+        
+        #inicio1 .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        #inicio1 .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            margin: 0 0px;
+            font-weight: 500;
+            transition: .5s;
+
+        }
+        
+        #inicio1 .contenido header .contenido-header nav ul li a:hover {
+            color:#ffc107;
+            font-weight: 600;
+            transform: scale(1.8, 1.8);
+            
+        }
+        
+        #inicio1 .contenido header .contenido-header .redes a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+            font-weight: 1000;
+        }
+        
+        #inicio1 .contenido header .contenido-header .redes a:hover {
+            color:#ffc107;
+            font-weight: 600;
+            transform: scale(1.5, 1.5);
+        }
+        
+        #inicio1 .contenido header .contenido-header .seleccionado {
+            color:#ffc107;
+        }
+        
+        #inicio1 .contenido .presentacion {
+            height: 70vh;
+            margin: auto;
+            color:#edebeb;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        
+       
+        
+        #inicio1 .contenido .presentacion .ayuda1 h3 {
+            font-size: 55px;
+            margin-bottom: 25px;
+            text-align: center;
+            color:#ffffff;
+             font-weight: 900;
+            padding: 30px;
+            background-color: #00000097;
+        }
+        
+        #inicio1 .contenido .presentacion h2 span {
+            
+            color: #f4f4f4;
+        }
+        
+        #inicio1 .contenido .presentacion .descripcion {
+            max-width: 70px;
+            margin: 25px auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        #inicio1 .contenido .presentacion a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px;
+            padding: 20px 25px;
+            border: 2px solid #fff;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+        
+        #inicio1 .contenido .presentacion a:hover {
             background-color:#ffc107;
             transform: scale(1.2, 1.2);
             
@@ -723,7 +850,7 @@
                
                 background-size: cover;
                 background-position:center;
-                height:65vh;
+                height:5vh;
                 align-items: center;
                 justify-content: center;
         
