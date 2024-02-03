@@ -108,12 +108,13 @@
        
         
         #inicio .contenido .presentacion .ayuda1 h3 {
-            font-size: 50px;
+            font-size: 55px;
             margin-bottom: 25px;
             text-align: center;
             color:#ffffff;
              font-weight: 900;
             padding: 30px;
+            background-color: #00000097;
         }
         
         #inicio .contenido .presentacion h2 span {
@@ -540,7 +541,7 @@
     #contacto .titulo-formulario {
     
     font-size: 18px;
-    font-weight: 200;
+    
     color: #202020;
     font-weight: 800;
      
@@ -821,7 +822,7 @@
             }
 
 
-
+ }
          
         
        
