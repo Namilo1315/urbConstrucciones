@@ -18,8 +18,12 @@
         }
         /*linear-gradient( rgba(40, 3, 251, 0.441),rgba(37, 0, 245, 0.391)),*/
      
-
-
+        .redes1 {
+            color: #ffffff;
+        }
+        .redes1 :hover {
+            color:#ffc107;
+         }
 
         #inicio {
             background: url("./imagenes/excavadora-hidraulica.jpg");
@@ -719,7 +723,7 @@
                
                 background-size: cover;
                 background-position:center;
-                height:25vh;
+                height:65vh;
                 align-items: center;
                 justify-content: center;
         
