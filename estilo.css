@@ -22,7 +22,7 @@
 
 
         #inicio {
-            background: linear-gradient(#0000008d, #ffc10745), url("./imagenes/excavadora-hidraulica.jpg");
+            background: url("./imagenes/excavadora-hidraulica.jpg");
             background-size: cover;
              margin-top: 15px;
             background-position:center;
@@ -235,11 +235,14 @@
             bottom: 20px;
             right: 20px;
         }
-        .foto{
-            
-           
-            
+        .foto-nosotros{
+         opacity: 0.9;
+         
         }
+        .foto-nosotros:hover{
+            opacity: 1.5; 
+        }
+
        
         #whatsapp-button a img {
             width: 60px; /* Ajusta el tamaño según tu preferencia */
@@ -315,17 +318,17 @@
             font-weight: 500;
           }
         .contenedor-skills {
-            background: linear-gradient(#fd7e14, rgba(33, 16, 16, 0.8)), url("./imagenes/portada.jpeg");
+            background: linear-gradient(#000000cd, #ffc107e2), url("./imagenes/obra.webp");
             background-repeat: no-repeat;
             background-size: cover;
             color: #fff;
             background-position: center center;
-            padding: 70px ;
+            padding: 40px ;
             text-align: center;
         }
         
         .contenedor-skills .skill {
-            max-width: 1000px;
+            max-width: 800px;
             margin: 20px auto;
         }
         
@@ -346,12 +349,12 @@
             background-color: #919191;
             width: 100%;
             height: 6px;
-            margin: 10px 0px;
+            margin: 0px 0px;
         }
         
         .contenedor-skills .skill .barra .barra-progreso1 {
             background-color: #fff;
-            width: 85%;
+            width: 65%;
             height: 6px;
             animation: progreso1 2s forwards;
         }
@@ -401,9 +404,9 @@
             font-weight: 800;
             font-size: 22px;
             text-transform: uppercase;
-            color:#ffc107;
+            color:#000000;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color:#ffc107;
             text-decoration-thickness: 5px;
             margin-bottom: 10px;
         }
@@ -426,7 +429,7 @@
         #servicios .fila .proyecto img {
             width: 100%;
             height: 100%;
-            ;
+            
             filter: grayscale(1);
             object-fit: cover;
             transition: .5s;
@@ -465,88 +468,101 @@
         /* seccion C O N T A C T O */
         /* *********************/
         
-        #contacto {
-            padding: 70px 15px;
-            background-color: #e4e4e4;
-        }
-        
-        #contacto .titulo-seccion {
-            margin-bottom: 20px;
-        }
-        
-        #contacto .contenedor-form {
-            max-width: 1100px;
-            margin: auto;
-        }
-        
-        #contacto .contenedor-form .fila {
-            margin-bottom: 15px;
-        }
-        
-        #contacto .contenedor-form .mitad {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #contacto .contenedor-form input,
-        #contacto .contenedor-form textarea {
-            padding: 20px;
-            border-radius: 20px;
-            border: none;
-            border: 0.5px solid #0000008a;
-        }
-        
-        #contacto .contenedor-form .mitad input {
-            width: 48%;
-        }
-        
-        #contacto .contenedor-form .input-full {
-            width: 100%;
-        }
-        
-        #contacto .titulo-seccion {
-            text-align: center;
-            font-size: 22px;
-            text-transform: uppercase;
-            color:#ffc107;
-            text-decoration: underline;
-            text-decoration-color: #edebeb;
-            text-decoration-thickness: 5px;
-             font-weight: 800;
-        }
-        .bton-contacto{
-            text-decoration: none;
-            display: inline-block;
-            margin: 25px;
-            padding: 8px 20px;
-            border: 2px solid #ffffff;
-            border-radius: 50px;
-            color:#ffc107;
-            font-weight: bold;
-        
-            transition: .5s;
-            
-        }
+#contacto .titulo-seccion {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    
+    #contacto .contenedor-form {
+    max-width: 85%;
+    margin: auto;
+    }
+    
+    #contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+    }
+    
+    #contacto .contenedor-form input,
+    #contacto .contenedor-form textarea {
+    padding: 10px;
+    border: 0.5px solid #2121218a;
+    
+    }
+    
+    
+    #contacto .contenedor-form .input-full {
+    width: 100%;
+    }
+    
 
-        .bton-contacto:hover{
-            background-color:#ffc107;
-            color: rgb(255, 254, 254);
-            
-        }
-        #contacto .btn-enviar {
-            display: block;
-            margin: auto;
-            cursor: pointer;
-            transition: .5s;
-            padding: 10px 15px !important;
-            border-radius: 50px;
-            
-        }
+    
+    #contacto .contenedor-form {
+    max-width: 85%;
+    margin: auto;
+    }
+    
+    #contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+    }
+    
+    #contacto .contenedor-form input,
+    #contacto .contenedor-form textarea {
+    padding: 10px;
+    border: 0.5px solid #2121218a;
+    
+    }
+    
+    
+    #contacto .contenedor-form .input-full {
+    width: 100%;
+    }
+    
+    #contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:#ffc107;
+    text-decoration-thickness: 5px;
+     font-weight: 800;
+     margin-top: 30px;
+    }
+    
+    #contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px !important;
+    background-color:#ffc107;
+    color: #111111;
+    }
+    #contacto .btn-enviar:hover{
+    background-color:#030303;
+    color:#ffc107;  
+    font-weight: 700;
+    }   
+    #contacto .titulo-formulario {
+    
+    font-size: 18px;
+    font-weight: 200;
+    color: #202020;
+     font-weight: 800;
+     
+     
+    }
+    .linea {
+        border: 2px solid #000000; 
         
-        #contacto .btn-enviar:hover {
-            background-color:#ffc107;
-            color: #fff;
-        }
+         width: 10%;
+        border-radius: 3px; 
+
+    }
+   
+    
+   
+       
         /* *********************/
         /* seccion F O O T E R */
         /* *********************/
@@ -620,6 +636,15 @@
     filter: contrast(120%);
 
 }
+#contacto {
+    padding: 10px 5px;
+    max-width: 80%;
+    margin-top: 20px;
+   
+
+
+}
+
 
 
         /* *********************/
@@ -635,12 +660,12 @@
             }
             nav.responsive {
                 display: block;
-                background-color: rgba(7, 7, 7, 0.8);
+                background-color: rgba(0, 0, 0, 0.8);
                 width: 100%;
                 position: absolute;
                 top: 40px;
                 left: 0;
-                padding: 10px 0;
+                
                 
     
             }
@@ -693,8 +718,8 @@
 
 
             #inicio .contenido .presentacion {
-                height: 60vh;
-        
+               
+             
         
             } 
 
@@ -702,7 +727,7 @@
                
                 background-size: cover;
                 background-position:center;
-                height:100vh;
+                height:80vh;
                 align-items: center;
                 justify-content: center;
         
