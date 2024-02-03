@@ -47,7 +47,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 6px 20px;
+            padding: 6px 6px;
         }
         
         
@@ -718,7 +718,7 @@
                
                 background-size: cover;
                 background-position:center;
-                height:100vh;
+                height:75vh;
                 align-items: center;
                 justify-content: center;
         
