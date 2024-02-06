@@ -14,6 +14,7 @@
         /* *********************/
         .hambuerguesa{
             color:#ffc107;
+            width: 30px;
             
         }
         /*linear-gradient( rgba(40, 3, 251, 0.441),rgba(37, 0, 245, 0.391)),*/
@@ -840,7 +841,7 @@
         }
      
             .logo{
-                width: 61px;
+                width: 65px;
             }
 
 
@@ -850,7 +851,7 @@
                
                 background-size: cover;
                 background-position:center;
-                height:75vh;
+                height: 75vh;
                 align-items: center;
                 justify-content: center;
         
