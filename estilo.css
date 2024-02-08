@@ -8,9 +8,7 @@
         .logoamarillo{
           margin-left: 90px; 
          }
-        .color2 a{
-           
-          }
+      
         .color2 a:hover{
           background-color: #000000;
           color:#ffc107;
@@ -119,8 +117,6 @@
         }
     
         
-       
-        
         #inicio .contenido .presentacion .ayuda1 h3 {
             font-size: 55px;
             margin-bottom: 25px;
@@ -167,13 +163,7 @@
             display: none;
         }
 
-     /*inicio1*/
-     #inicio1 {
-        
-    
-       
-        
-    }
+   
         #inicio1 .contenido header {
             background-color: rgb(0, 0, 0);
             position: fixed;
@@ -244,9 +234,6 @@
             justify-content: center;
     
         }
-    
-        
-       
         
         #inicio1 .contenido .presentacion .ayuda1 h3 {
             font-size: 55px;
@@ -352,7 +339,6 @@
         #nosotros .sobremi p {
             font-size: 14px;
             line-height: 25px;
-            
             margin-bottom: 12px;
         }
 
@@ -555,7 +541,11 @@
             margin-bottom: 10px;
         }
         
-        
+        #servicios p {
+            font-size: 14px;
+            line-height: 25px;
+            margin-bottom: 12px;
+        }
         #servicios .fila {
             display: flex;
             justify-content: space-between;
@@ -794,7 +784,7 @@
         /* *********************/
         
         @media screen and (max-width: 800px) {
-         
+            
             .redes {
                 display: none;
             }
@@ -860,13 +850,20 @@
         }
      
             .logo{
-                width: 65px;
-            }
-
-            .logoamarillo{
-                margin-left: 50px; 
                 width: 75px;
-               }
+            }
+            .linea{
+                display: none;
+            }
+            .final {
+                text-align: center;
+               
+            }
+            
+            .logoamarillo{
+                margin-left: 0px; 
+                width: 75px;
+            }
 
             .contador-obras {
                
