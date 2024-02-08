@@ -381,7 +381,7 @@
          
         }
         .foto-nosotros:hover{
-            opacity: 1.5; 
+            opacity: 1.8; 
         }
 
        
@@ -402,7 +402,7 @@
         
 
         .contador-obras {
-            background: linear-gradient(#000000d8, #ffc1077f, #00000097), url("./imagenes/protada23.jpg");
+            background: linear-gradient( #ffc107c6, #0000008a,#0000008a, #ffc107c6  ), url("./imagenes/protada23.jpg");
             background-size: cover;
             background-position:center;
             height:35vh;
@@ -459,7 +459,7 @@
             font-weight: 500;
           }
         .contenedor-skills {
-            background: linear-gradient(#000000cd, #ffc107e2), url("./imagenes/obra.webp");
+            background: linear-gradient( #ffc107c6, #0000008a,#0000008a, #ffc107c6 ), url("./imagenes/obra.webp");
             background-repeat: no-repeat;
             background-size: cover;
             color: #fff;
