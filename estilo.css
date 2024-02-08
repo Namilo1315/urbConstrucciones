@@ -5,6 +5,9 @@
             box-sizing: border-box;
             font-family: 'Montserrat';
         }
+        .logoamarillo{
+          margin-left: 90px; 
+         }
         .color2 a{
            
           }
@@ -684,7 +687,7 @@
     }   
     #contacto .titulo-formulario {
     
-    font-size: 18px;
+    font-size: 20px;
     
     color: #202020;
     font-weight: 800;
@@ -860,7 +863,10 @@
                 width: 65px;
             }
 
-
+            .logoamarillo{
+                margin-left: 50px; 
+                width: 65px;
+               }
 
             .contador-obras {
                
