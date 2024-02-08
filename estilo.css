@@ -789,6 +789,14 @@
         /* *********************/
         
         @media screen and (max-width: 800px) {
+            #inicio {
+                background: url("./imagenes/excavadora-hidraulica.jpg");
+                background-size: cover;
+                 margin-top: 15px;
+                background-position:center;
+                height:70vh;
+                
+            }
             .redes {
                 display: none;
             }
