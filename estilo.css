@@ -668,10 +668,10 @@
     transition: .5s;
     padding: 10px 15px !important;
     background-color:#ffc107;
-    color: #111111;
+    color: #000000;
     }
     #contacto .btn-enviar:hover{
-    background-color:#030303;
+    background-color:#131313;
     color:#ffc107;  
     font-weight: 700;
     }   
@@ -679,7 +679,7 @@
     
     font-size: 20px;
     
-    color: #202020;
+    color: #000000;
     font-weight: 800;
      
      
